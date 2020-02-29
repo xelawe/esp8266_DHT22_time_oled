@@ -129,7 +129,7 @@ void setup() {
   digitalWrite(DHTPOWERPIN, LOW);
 
   //init_wifi();
-  dis_stat_prog("connected...yeey", 60);
+  dis_stat_prog("WiFi: wait to connect", 20);
   wifi_init(gc_hostname);
   dis_stat_prog("connected...yeey", 60);
 
